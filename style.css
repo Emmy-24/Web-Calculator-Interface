@@ -1,0 +1,36 @@
+.calculator {
+ width: 300px;
+ margin: 0 auto;
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse;
+}
+
+td {
+ padding: 10px;
+}
+
+input[type="text"] {
+ width: calc(100% - 20px);
+ padding: 10px;
+ margin-bottom: 10px;
+ background-color: lightgrey;
+ color: black;
+}
+
+button {
+ width: 100%;
+ padding: 10px;
+ font-size: 1.2em;
+ background-color: white;
+}
+
+button:hover {
+ background-color: grey;
+}
+
+button.equal {
+ background-color: orangered;
+}
